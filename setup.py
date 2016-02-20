@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 setup(name='UniCurses',
       version='1.2',
@@ -9,8 +9,7 @@ setup(name='UniCurses',
       author='Michael Kamensky',
       author_email='stavdev@mail.ru',
       url='http://pyunicurses.sourceforge.net',
-      py_modules=['unicurses'],
+      packages=find_packages(),
       license='General Public License v3',
       platforms=['Windows', 'Linux', 'Mac OS X'],
-      data_files=[('unicurses/Lib/site-packages/unicurses/demos', ['unicurses/demos/test_background.py', 'unicurses/demos/test_chgat.py', 'unicurses/demos/test_colors.py', 'unicurses/demos/test_keymenu.py', 'unicurses/demos/test_mousemenu.py', 'unicurses/demos/test_panels_advanced.py', 'unicurses/demos/test_panels_basic.py', 'unicurses/demos/test_roguelike.py', 'unicurses/demos/test_windows.py']),
-                  ('Lib/site-packages/unicurses/docs', ['docs/readme.txt', 'docs/readme.rtf', 'docs/changelog'])])
+)
