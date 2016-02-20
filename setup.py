@@ -12,5 +12,5 @@ setup(name='UniCurses',
       py_modules=['unicurses'],
       license='General Public License v3',
       platforms=['Windows', 'Linux', 'Mac OS X'],
-      data_files=[('Lib/site-packages/unicurses/demos', ['demos/test_background.py', 'demos/test_chgat.py', 'demos/test_colors.py', 'demos/test_keymenu.py', 'demos/test_mousemenu.py', 'demos/test_panels_advanced.py', 'demos/test_panels_basic.py', 'demos/test_roguelike.py', 'demos/test_windows.py']),
+      data_files=[('unicurses/Lib/site-packages/unicurses/demos', ['unicurses/demos/test_background.py', 'unicurses/demos/test_chgat.py', 'unicurses/demos/test_colors.py', 'unicurses/demos/test_keymenu.py', 'unicurses/demos/test_mousemenu.py', 'unicurses/demos/test_panels_advanced.py', 'unicurses/demos/test_panels_basic.py', 'unicurses/demos/test_roguelike.py', 'unicurses/demos/test_windows.py']),
                   ('Lib/site-packages/unicurses/docs', ['docs/readme.txt', 'docs/readme.rtf', 'docs/changelog'])])
