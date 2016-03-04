@@ -10,6 +10,9 @@ setup(name='UniCurses',
       author_email='stavdev@mail.ru',
       url='http://pyunicurses.sourceforge.net',
       packages=find_packages(),
+      package_data = {
+          'unicurses' : ['pdc34dll/*']
+      },
       license='General Public License v3',
       platforms=['Windows', 'Linux', 'Mac OS X'],
 )
